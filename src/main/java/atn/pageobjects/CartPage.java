@@ -31,9 +31,17 @@ public class CartPage extends AbstractComponent {
 	{
 		checkoutEle.click();
 		return new CheckoutPage(driver);
-		//return new CheckoutPage(driver);
-		//return new CheckoutPage(driver);
-		//return new CheckoutPage(driver);
 	}
+	
 
+	/*
+	 * public CheckoutPage goToCheckout() { checkoutEle.click(); return new
+	 * CheckoutPage(driver); }
+	 */
+
+	
+	/*
+	 * public CheckoutPage goToCheckout() { checkoutEle.click(); return new
+	 * CheckoutPage(driver); }
+	 */
 }
